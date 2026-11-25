@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14532d;
+  color: white;
+  padding: 15px 40px;
+}
+
+header h2 {
+  font-size: 25px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #a3e635;
+}
+
+header input {
+  width: 250px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+  outline: none;
+}
+
+header input:focus {
+  border: 2px solid #a3e635;
+}
